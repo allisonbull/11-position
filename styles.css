@@ -1,0 +1,74 @@
+html {
+    background-color:rgb(251, 238, 231);
+  font-family: "Josefin Sans", sans-serif;
+body {
+    padding-top: 40px;
+}
+
+}
+
+.site-nav {
+    background-color: rgb(127, 180, 57);
+    
+}
+
+.site-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    max-width: auto;
+    justify-content: center;
+}
+
+.site-link {
+    display:block;
+    padding: 10px 20px;
+    color:#ffff;
+    text-decoration: none;
+}
+
+.site-link:hover {
+    background-color: rgb(80, 138, 45);
+}
+
+.dropdown {
+    background-color:rgb(246, 208, 227);
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.5);
+    display: none;
+}
+
+.dropdown-link {
+    display: block;
+    padding: 10px 30px;
+    color: #777;
+    text-decoration: none;
+}
+
+
+.dropdown-link:hover {
+    background-color: rgb(220, 173, 204);
+}
+
+
+.has-dropdown:hover .dropdown {
+    display:block;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+code {
+    background-color:rgba(248, 189, 238, 0.5);
+    border-radius: 10px;
+    color:rgb(178, 61, 155);
+
+}
+
+.body {
+    line-height: 1.4;
+}
